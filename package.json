@@ -1,29 +1,31 @@
 {
-  "name": "simple-react-panel",
-  "version": "1.0.0",
-  "description": "Simple React Panel",
+  "name": "ascend-echart-panel",
+  "version": "1.0.1",
+  "description": "Ascend Echart Panel",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": "github:grafana/simple-react-panel",
-  "author": "Grafana Labs <team@grafana.com> (https://grafana.com)",
+  "author": "Dr.Strange Team",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/grafana/simple-react-panel/issues",
-    "email": "plugins@grafana.com"
-  },
   "devDependencies": {
-    "@grafana/data": "next",
-    "@grafana/toolkit": "next",
-    "@grafana/ui": "next"
+    "@grafana/data": "^6.6.2",
+    "@grafana/toolkit": "^6.7.1",
+    "@grafana/ui": "^6.7.1"
+  },
+  "dependencies": {
+    "@types/echarts": "^4.4.3",
+    "@types/react-numeric-input": "^2.2.3",
+    "echarts": "^4.6.0",
+    "echarts-for-react": "^2.0.15-beta.1",
+    "react-numeric-input": "^2.2.3",
+    "@babel/compat-data": "^7.8.0",
+    "@babel/preset-env": "^7.8.0",
+    "babel-loader": "^8.1.0"
   },
   "resolutions": {
-    "@babel/preset-env": "7.9.0"
-  },
-  "engines": {
-    "node": ">=12 <13"
+    "@babel/preset-env": "^7.8.0"
   }
 }

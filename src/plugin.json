@@ -1,21 +1,21 @@
 {
   "type": "panel",
-  "name": "Simple Panel",
-  "id": "myorgid-simple-panel",
+  "name": "Line Echart Panel",
+  "id": "line-echart-panel",
 
   "info": {
-    "description": "Simple React Panel",
+    "description": "Line Echart Panel",
     "author": {
-      "name": "Your Name"
+      "name": "Dr.Strange Team"
     },
-    "keywords": ["Simple"],
+    "keywords": ["Echart"],
     "logos": {
-      "small": "img/logo.svg",
-      "large": "img/logo.svg"
+      "small": "img/ascend-logo.png",
+      "large": "img/ascend-logo.png"
     },
     "links": [
-      {"name": "Website", "url": "https://github.com/grafana/simple-react-panel"},
-      {"name": "License", "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"}
+      {"name": "Website", "url": "https://github.com/wacharaonkhaw/grafana-line-echart-panel"},
+      {"name": "License", "url": "https://github.com/wacharaonkhaw/grafana-line-echart-panel/blob/master/LICENSE"}
     ],
     "screenshots": [],
     "version": "%VERSION%",
