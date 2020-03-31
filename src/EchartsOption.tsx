@@ -8,15 +8,23 @@ const echartOption = (props: PanelProps<SimpleOptions>) => {
   const { data, options } = props;
   
   data?.series?.map((items: any) => {
-    console.log(items.fields)
+    console.log(items)
   });
 
-  options.legendData !== '' ? console.log("legendData is not empty") 
-                            : console.log("legendData is empty") 
+  options.legendData == '' ? console.log("legendData is empty") 
+                            : console.log("legendData is not empty") 
   
   const option = {
     title: {
-        text: 'line graph'
+      text: options.titleText,
+      show: options.isShowTitle,
+      textStyle: {
+        color: options.titleTextColor,
+        fontSize: options.titleTextFontSize,
+      },
+      top: options.titleTextVertical,
+      left: options.titleTextHorizontal,
+      textAlign: options.titleTextAlign,
     },
     tooltip: {
         trigger: 'axis'

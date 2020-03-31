@@ -1,9 +1,27 @@
 export interface SimpleOptions {
-  text: string;
+  // Sample
   legendData: string;
+
+  //Title
+  titleText: string;
+  titleTextFontSize: number;
+  titleTextColor: string;
+  isShowTitle: boolean;
+  titleTextAlign: string;
+  titleTextVertical: string;
+  titleTextHorizontal: string;
 }
 
 export const defaults: SimpleOptions = {
-  text: 'The default text!',
-  legendData: '',
+  // Sample
+  legendData: 'kk',
+
+    //Title
+    titleText: 'Title name',
+    titleTextFontSize: 18,
+    titleTextColor: '#ffee00',
+    isShowTitle: false,
+    titleTextAlign: 'auto',
+    titleTextVertical: 'top',
+    titleTextHorizontal: 'left',
 };
