@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { PanelProps } from '@grafana/data';
 import { SimpleOptions } from 'types';
-import EchartsOption from 'EchartsOption';
+import EchartsOption from 'panels/EchartsOption';
 
 interface Props extends PanelProps<SimpleOptions> {}
 
